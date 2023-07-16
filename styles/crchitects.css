@@ -18,10 +18,10 @@ header .btn {
     margin: 20px;
 }
 
-main {
+/* main {
     padding: 20px 240px;
     margin: auto;
-}
+} */
 
 /* header style */
 header {
@@ -82,6 +82,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 240px;
 }
 
 .team-img-content {
@@ -131,6 +132,20 @@ ul li a {
         padding: 10px;
     }
 
+    .team-container{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .team-img-content {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .team-text-content{
+        width: auto;
+        margin-right: 73px;
+    }
+
     nav {
         flex-direction: column;
         padding: 0px 20px;
@@ -140,7 +155,8 @@ ul li a {
         padding: 0;
         width: min-content;
     }
-    .team-img-content{
+
+    .team-img-content {
         display: flex;
         flex-direction: column;
     }
